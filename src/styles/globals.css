@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import "tailwindcss";
+
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-image: url('../assets/images/portfolio_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
