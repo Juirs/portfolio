@@ -37,6 +37,23 @@ This project utilizes the latest stable releases of the React ecosystem:
 
 ---
 
+## How To Use
+
+To to create your own portfolio, using this template, follow these steps:
+
+- Clone the Repository
+- Install Dependencies: `npm install`
+- Start the Development Server: `npm run dev` (if using Vite)
+- Create a free account on EmailJS to get your service id, template id, and public key. This step is very important as the email form will not work without it.
+- Ensure all the values we send to the EmailJS API are reflected in the templates you create on EmailJS. (from_name, from_email, etc).
+- Create a .env file in the root directory of your project.
+- Add the following variables to the .env file: 
+    - REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+    - REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
+    - REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
+- Replace the image assets in the images folder with your own images. (unless we look extremely identical)
+
+
 ## 📂 Project Structure
 
 ```text
